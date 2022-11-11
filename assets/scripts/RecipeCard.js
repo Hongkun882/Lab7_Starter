@@ -126,6 +126,7 @@ class RecipeCard extends HTMLElement {
     // Set the contents of the <article> with the <recipe-card> template and
     // the data passed in
     article.innerHTML = `
+      <button>c</button>
       <img src="${data.imgSrc}" alt="${data.imgAlt}">
       <p class="title">
         <a href="${data.titleLnk}">${data.titleTxt}</a>
